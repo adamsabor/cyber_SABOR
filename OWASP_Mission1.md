@@ -10,6 +10,7 @@ Bloc3 (BTS - SIO) 13/06/2024
 
 
 #### Je suis donc passé sur Firefox qui est apparemment plus permissif et j'ai téléchargé le certificat Burp pour que cela fonctionne
+et j'ai aussi du telechearger le certificat burp pour pas que firefox me bloque 
 1. **Configurer le proxy Burp Suite :**
    - J'ai ouvert Burp Suite et créé un projet temporaire en utilisant les paramètres par défaut.
    - J'ai cliqué sur l'onglet "Proxy" puis sur "Options".
