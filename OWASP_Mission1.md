@@ -6,7 +6,8 @@ Bloc3 (BTS - SIO) 13/06/2024
 ### Q1
 
 #### J'ai configuré burp comme demandée mais malheureusement il est entré en conflit avec mon navigateur
-![Capture d’écran 2024-06-13 à 17 45 53](https://github.com/adamsabor/cyber_SABOR/assets/156083054/21a64a72-2fdb-4022-9c7c-438c38abd063)
+![Capture d’écran 2024-06-13 à 17 45 53](https://github.com/adamsabor/cyber_SABOR/assets/156083054/8e38573d-63e4-485d-b62e-f3552ded47a9)
+
 
 #### Je suis donc passé sur Firefox qui est apparemment plus permissif et j'ai téléchargé le certificat Burp pour que cela fonctionne
 1. **Configurer le proxy Burp Suite :**
@@ -23,7 +24,7 @@ Bloc3 (BTS - SIO) 13/06/2024
    - J'ai cliqué sur "Login" et observé la requête interceptée dans Burp Suite.
    - J'ai cliqué sur "Forward" pour voir les paramètres de la requête, révélant les noms des champs de 	formulaire.
 	#### Voilà ce que Burp intercepte de mon Mutillidae après avoir simulé un login et mot de passe
-	![Capture d’écran 2024-06-13 à 20 31 01](https://github.com/adamsabor/cyber_SABOR/assets/	156083054/01a8fd51-bcf3-4a4c-82b1-28df82dc7b0e)
+	
 
 
 
