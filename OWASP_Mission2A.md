@@ -57,7 +57,7 @@ Bloc3 (BTS - SIO) 13/06/2024
 **Réponse :**
 1. **Créer un dictionnaire de login :**
    - J'ai ouvert un éditeur de texte et saisi des logins les uns en dessous des autres. Puis, j'ai enregistré le fichier.
-![Capture d’écran 2024-06-27 à 22 19 42](https://github.com/adamsabor/cyber_SABOR/assets/156083054/e3198fc1-f3d3-4e85-99e5-092a4a10c75a)
+![Capture d’écran 2024-06-27 à 22 24 49](https://github.com/adamsabor/cyber_SABOR/assets/156083054/c6750a87-bc96-4301-b913-8739418e1eae)
 
 ### Q5. Lancer l’énumération et relever les logins valides en réalisant les manipulations décrites dans l’étape n°4.
 
