@@ -71,7 +71,7 @@ Bloc3 (BTS - SIO) 13/06/2024
 
 Malheureuresement se message c'est affichait donc je n'ai pas pu voir l'attaque malgré le fait que j'ai realise toute les etapes
 
-```![Capture d’écran 2024-06-27 à 22 45 29](https://github.com/adamsabor/cyber_SABOR/assets/156083054/3f24da61-3daa-4694-ab1e-0356d4e2ffee)
+![Capture d’écran 2024-06-27 à 22 45 29](https://github.com/adamsabor/cyber_SABOR/assets/156083054/3f24da61-3daa-4694-ab1e-0356d4e2ffee)
 
 
 ### Q6. A l’aide du comparateur, expliquer quelles sont les lignes de la réponse sur lesquelles l’attaquant a pu s’appuyer pour lancer l’attaque ?
@@ -88,8 +88,8 @@ Malheureuresement se message c'est affichait donc je n'ai pas pu voir l'attaque 
    - J'ai fermé puis relancé BurpSuite.
    - J'ai positionné le niveau de sécurité à 5 dans Mutillidae.
    - J'ai essayé relancé l'attaque en suivant l' étapes 2 du travail à faire 1. mais je ne peux pas faire le reste comme vu precedemment .
+<img width="1262" alt="Capture d’écran 2024-06-27 à 23 08 22" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/fd9909e5-d724-47df-9fea-3626a4b1ea6d">
 
-![Capture d’écran 2024-06-27 à 22 50 45](https://github.com/adamsabor/cyber_SABOR/assets/156083054/1e60d597-11bb-401a-a3b9-fcc6b32880ff)
 
 ### Q2. Les informations affichées par le comparateur sont-elles exploitables pour tenter une énumération ?
 
