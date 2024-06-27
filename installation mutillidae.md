@@ -139,3 +139,4 @@ Warning: fsockopen(): Unable to connect to 127.0.0.1:389 (Connection refused) in
 
 ###  enfin j'ai  installer burp suite 
 
+il se peut que certaine chose soit trouble cela est due au parcours atypique que j'ai du réalisée durant l'installation.
