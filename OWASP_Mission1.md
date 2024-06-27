@@ -23,7 +23,7 @@ Bloc3 (BTS - SIO) 13/06/2024
    - J'ai accédé à la page de connexion sur Mutillidae et saisi un nom d'utilisateur et un mot de passe 	fictif.
    - J'ai cliqué sur "Login" et observé la requête interceptée dans Burp Suite.
    - J'ai cliqué sur "Forward" pour voir les paramètres de la requête, révélant les noms des champs de 	formulaire.
-	![Capture d’écran 2024-06-13 à 17 45 53](https://github.com/adamsabor/cyber_SABOR/assets/156083054/8e38573d-63e4-485d-b62e-f3552ded47a9)
+	<img width="1219" alt="Capture d’écran 2024-06-13 à 20 51 37" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/3bdb8484-74ec-4ee1-8581-f7bc83bcc854">
 	
 
 
