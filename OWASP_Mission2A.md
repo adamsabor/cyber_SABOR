@@ -69,22 +69,15 @@ Bloc3 (BTS - SIO) 13/06/2024
    - J'ai ajouté un filtre pour détecter les logins corrects (chaîne de caractère "Results for").
    - J'ai lancé l'attaque en cliquant sur "Start Attack".
 
-#### Capture des résultats de l'énumération des logins :
-```
-[Insérez ici une capture d'écran des résultats de l'énumération des logins]
-```
+Malheureuresement se message c'est affichait donc je n'ai pas pu voir l'attaque malgré le fait que j'ai realise toute les etapes
+
+```![Capture d’écran 2024-06-27 à 22 45 29](https://github.com/adamsabor/cyber_SABOR/assets/156083054/3f24da61-3daa-4694-ab1e-0356d4e2ffee)
+
 
 ### Q6. A l’aide du comparateur, expliquer quelles sont les lignes de la réponse sur lesquelles l’attaquant a pu s’appuyer pour lancer l’attaque ?
 
 **Réponse :**
-1. **Analyse des réponses :**
-   - J'ai utilisé le comparateur de BurpSuite pour comparer les réponses entre un login valide et un login inexistant.
-   - Les différences dans les messages affichés ont permis d'identifier les logins valides. Les réponses contenant la chaîne de caractère "Results for" indiquent un login valide.
-
-#### Capture des résultats de l’analyse :
-```
-[Insérez ici une capture d'écran des résultats de l’analyse]
-```
+1. je n'ai pas pu faire la question comme je ne peux pas faire d'attaque
 
 ### Travail à faire 2 : Énumération des logins en mode sécurisé et analyse du code source
 
@@ -94,30 +87,21 @@ Bloc3 (BTS - SIO) 13/06/2024
 1. **Positionner le niveau de sécurité à 5 :**
    - J'ai fermé puis relancé BurpSuite.
    - J'ai positionné le niveau de sécurité à 5 dans Mutillidae.
-   - J'ai relancé l'attaque en suivant les étapes 2 à 4 du travail à faire 1.
+   - J'ai essayé relancé l'attaque en suivant l' étapes 2 du travail à faire 1. mais je ne peux pas faire le reste comme vu precedemment .
 
-#### Capture de la configuration de la sécurité à 5 :
-```
-[Insérez ici une capture d'écran de la configuration de la sécurité à 5]
-```
+![Capture d’écran 2024-06-27 à 22 50 45](https://github.com/adamsabor/cyber_SABOR/assets/156083054/1e60d597-11bb-401a-a3b9-fcc6b32880ff)
 
 ### Q2. Les informations affichées par le comparateur sont-elles exploitables pour tenter une énumération ?
 
 **Réponse :**
-1. **Vérification des informations :**
-   - J'ai comparé les réponses obtenues avec le comparateur de BurpSuite.
-   - En mode sécurisé, les informations affichées ne permettent pas d’identifier les logins valides, rendant l’énumération impossible.
+je trouve ce message d'erreur que je ne rencotrai pas en toggle 1
+![Capture d’écran 2024-06-27 à 22 54 05](https://github.com/adamsabor/cyber_SABOR/assets/156083054/8fad2a85-967d-420a-ad1b-166f75319c56)
 
 ### Q3. Chercher dans le code source de la page `ws-user-account.php` (située dans `/var/www/html/mutillidae/webservices/soap/`) le codage mis en place permettant d’obtenir un encodage sécurisé. Expliquer le rôle de l’instruction EncodeforHTML.
-
 **Réponse :**
 1. **Analyser le code source :**
-   - J'ai cherché le fichier `ws-user-account.php` situé dans `/var/www/html/mutillidae/webservices/soap/`.
-   - L'instruction `EncodeforHTML` encode les caractères spéciaux en entités HTML, empêchant l’injection de code et sécurisant les réponses affichées.
+   - J'ai cherché le fichier `ws-user-account.php` situé dans `/var/www/html/mutillidae/webservices/soap/`.a l'ai
+   - L'instruction `EncodeforHTML` encode les caractères spéciaux en  HTML, sa empêche l’injection de code et sécurise les réponses .
 
-#### Capture du code source analysé :
-```
-[Insérez ici une capture d'écran du code source analysé]
-```
 
 
