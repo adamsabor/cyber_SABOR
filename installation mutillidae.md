@@ -119,24 +119,12 @@ https://sabordev.alwaysdata.net/mutillidae
 ```
 ![Vérification application]( /mnt/data/Capture d’écran 2024-06-12 à 19.55.23.png)
 
-### Si l'erreur persiste
 
-#### Vérifier les logs du serveur pour plus d'informations
-J'ai accédé aux logs du serveur sur Alwaysdata via mon compte Alwaysdata.
 
-## Contact du Support Technique
+### apres avoir recommencer et reussi a me donner les bon accés voici l'état de mon terminal j'ai du batailler etant donné que j'avais de gros probléme d'accés .
+<img width="1080" alt="Capture d’écran 2024-06-13 à 09 52 46" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/2bcdf839-c30c-4ed3-b74a-4d32b295dc85">
 
-### Accéder à l'interface de support Alwaysdata
 
-Je me suis connecté à mon compte Alwaysdata.
-J'ai trouvé la section "Support" ou "Assistance".
-J'ai créé une nouvelle demande d'assistance.
-
-### apres avoir recommencer et reussi a me donner les bon accés voici l'état de mon terminal
-<img width="290" alt="Capture d’écran 2024-06-13 à 10 55 15" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/6d7c638b-cd2e-4e35-849c-d00df5234322">
-### j'arrive donc dans cette etape de l'installation <img width="1275" alt="Capture d’écran 2024-06-13 à 10 55 47" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/c06c022a-d7c9-4bb6-8eb4-21df5e1dd488">
-j'ai suivi ces etapes sur le terminal
-<img width="854" alt="Capture d’écran 2024-06-13 à 11 06 27" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/1605c9be-e3d8-49f8-a32c-8eba1d64c6e9">
 j'ai rencontré toute ces erreur avant de configurer la data base  
 "arning: fsockopen(): php_network_getaddresses: getaddrinfo for mysql-sabordev.alwaysdata.net/ failed: Name or service not known in /home/sabordev/www/mutillidae/src/database-offline.php on line 59
 
@@ -146,7 +134,8 @@ Warning: mysqli::__construct(): php_network_getaddresses: getaddrinfo for mysql-
 
 Warning: fsockopen(): Unable to connect to 127.0.0.1:389 (Connection refused) in /home/sabordev/www/mutillidae/src/database-offline.php on line 105"
 ### j'ai enfin reussi a arriver a cette etape apres avoir configuer ma base de donnée
-<img width="1280" alt="Capture d’écran 2024-06-13 à 11 35 37" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/507a15ee-657f-4dd8-825b-d8c3496cb5c2">
+<img width="1270" alt="Capture d’écran 2024-06-27 à 14 38 58" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/52737e2c-1f2d-4a60-bf54-5f4c03cddeb5">
+
 
 ###  enfin j'ai  installer burp suite 
-<img width="754" alt="Capture d’écran 2024-06-13 à 11 56 16" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/18cfc486-68f1-405d-9c48-d73e44055e5b">
+
