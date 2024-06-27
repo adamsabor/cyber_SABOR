@@ -23,7 +23,7 @@ Bloc3 (BTS - SIO) 13/06/2024
    - J'ai accédé à la page de connexion sur Mutillidae et saisi un nom d'utilisateur et un mot de passe 	fictif.
    - J'ai cliqué sur "Login" et observé la requête interceptée dans Burp Suite.
    - J'ai cliqué sur "Forward" pour voir les paramètres de la requête, révélant les noms des champs de 	formulaire.
-	#### Voilà ce que Burp intercepte de mon Mutillidae après avoir simulé un login et mot de passe
+	![Capture d’écran 2024-06-13 à 17 45 53](https://github.com/adamsabor/cyber_SABOR/assets/156083054/8e38573d-63e4-485d-b62e-f3552ded47a9)
 	
 
 
@@ -42,50 +42,49 @@ Bloc3 (BTS - SIO) 13/06/2024
 1. **Accéder à la page de connexion :**
    - J'ai vérifié que le niveau de sécurité est réglé à 0 (Hosed).
    - J'ai saisi sa (') dans le champ mot de passe.
-   - J'ai cliqué sur le bouton "Login".
+   - J'ai cliqué sur le bouton "Login".![Capture d’écran 2024-06-27 à 17 59 20](https://github.com/adamsabor/cyber_SABOR/assets/156083054/39c99ed2-a36b-4570-afe6-34001b3937fd)
 
-<img width="1219" alt="Capture d’écran 2024-06-13 à 20 51 37" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/3bdb8484-74ec-4ee1-8581-f7bc83bcc854">
 
 2. **Observer l'erreur SQL :**
-   - Une erreur SQL est apparue, on peut voir "exception occurred" et aussi le message en haut de la page, donc il y a des failles.
-   
-<img width="644" alt="Capture d’écran 2024-06-13 à 20 54 17" src="https://github.com/adamsabor/cyber_SABOR/assets/156083054/b132dda3-4069-4200-8b35-3a028dc67b33">
+   - Une erreur SQL est apparue, on peut voir "exception occurred" et aussi le message en haut de la page, donc il y a des failles.![Capture d’écran 2024-06-27 à 18 02 16](https://github.com/adamsabor/cyber_SABOR/assets/156083054/51c90be4-61fc-41e9-8de2-fe4d4a44f201)
 
-![Capture d’écran 2024-06-13 à 20 55 29](https://github.com/adamsabor/cyber_SABOR/assets/156083054/5d8d12ca-31ac-4a6b-a73d-f8c5467ca46b)
+   
 
 ## À vous de jouer
 
 ### Premier Défi : Extraction de Données
 
 1. **Accéder à la page d'extraction de données :**
-   - J'ai navigué vers OWASP 2017 dans cette page.
-   
-![Capture d’écran 2024-06-13 à 20 59 20](https://github.com/adamsabor/cyber_SABOR/assets/156083054/bf02069b-0635-41ef-9676-3db0726bfec6)
+   - J'ai navigué vers OWASP 2017 
+
 
 2. **Tester une injection SQL :**
    - Dans le champ du nom d'utilisateur, j'ai mis : admin.
    - Dans le champ du mot de passe, j'ai mis : ' or username='admin.
    - J'ai obtenu cette liste donc cela a fonctionné :
+   
+     ![Capture d’écran 2024-06-27 à 18 07 01](https://github.com/adamsabor/cyber_SABOR/assets/156083054/83794852-b696-43a4-9cca-9db52b5c6463)
+  - donc cela a fonctionné
 
-![Capture d’écran 2024-06-13 à 21 13 42](https://github.com/adamsabor/cyber_SABOR/assets/156083054/b9f246c7-f869-402a-b417-cb67c7a9abaa)
 
 ### Deuxième Défi : Passer Outre l'Authentification
 
 1. **Accéder à la page de connexion :**
    - J'ai navigué vers OWASP 2017 > A1 – Injection (SQL) > SQLi – Bypass Authentication > Login.
 
-![Capture d’écran 2024-06-13 à 21 14 59](https://github.com/adamsabor/cyber_SABOR/assets/156083054/8ca27412-1c18-4741-9d10-e9befffa4843)
+
 
 2. **Tester une injection SQL :**
    - Dans le champ du nom d'utilisateur, j'ai entré : admin.
    - Dans le champ du mot de passe, j'ai entré : ' or username='admin.
    - J'ai cliqué sur "Login" pour m'authentifier en tant qu'administrateur.
    - J'ai obtenu cela :
+![Capture d’écran 2024-06-27 à 18 08 08](https://github.com/adamsabor/cyber_SABOR/assets/156083054/443bd91b-f866-4992-8fb4-3f1260c4988d)
 
-![Capture d’écran 2024-06-13 à 21 15 57](https://github.com/adamsabor/cyber_SABOR/assets/156083054/66a7246b-66c3-457d-be16-06c1bd9235a1)
 
-- Cette erreur indique que la syntaxe SQL est incorrecte.
-- Cela montre que l'application ne valide pas correctement les entrées, ce qui permet les injections SQL.
+
+- j'ai reussi a me connecter a admin comment on peut le voir en haut a gauche
+
 
 #### Reporter sur votre documentation les injections testées
 - Injection pour l'extraction de données : ' or ('a' = 'a') or '.
@@ -98,13 +97,12 @@ Bloc3 (BTS - SIO) 13/06/2024
 1. **Modifier le niveau de sécurité :**
    - J'ai cliqué sur le lien "Toggle Security" pour augmenter le niveau de sécurité.
    
-![Capture d’écran 2024-06-13 à 21 23 08](https://github.com/adamsabor/cyber_SABOR/assets/156083054/06b1253e-972a-4133-a90a-dca1892e4cdc)
+
 
 2. **Tester à nouveau les injections :**
    - J'ai réessayé les injections précédentes pour vérifier qu'elles échouent. Effectivement, elles ont bien échoué.
 
-![Capture d’écran 2024-06-13 à 21 25 13](https://github.com/adamsabor/cyber_SABOR/assets/156083054/a3506db1-4f52-42da-9bc1-81e00d6f436d)
-![Capture d’écran 2024-06-13 à 21 26 22](https://github.com/adamsabor/cyber_SABOR/assets/156083054/c1d614b3-3e18-42be-bf58-02431673974f)
+
 
 ### Répondre aux questions suivantes en utilisant le fichier user-info.php
 
