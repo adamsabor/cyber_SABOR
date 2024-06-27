@@ -16,9 +16,11 @@ Bloc3 (BTS - SIO) 13/06/2024
    - J'ai cliqué sur "Toggle Security" pour définir le niveau de sécurité à "0 (Hosed)".
 
 #### Capture de la configuration de l'extension Wsdler et de la sécurité à 0 :
-```
-[Insérez ici une capture d'écran de la configuration de l'extension Wsdler et de la sécurité à 0]
-```
+
+![Capture d’écran 2024-06-27 à 18 42 59](https://github.com/adamsabor/cyber_SABOR/assets/156083054/61a1b453-bebc-46d8-8387-3c2891211e53)
+![Capture d’écran 2024-06-27 à 18 43 58](https://github.com/adamsabor/cyber_SABOR/assets/156083054/ee0eea2b-1e19-426b-92b6-acb30ef46073)
+
+
 
 ### Q2. Tester un exemple de requête et de réponse à l’aide d’un login non valide en réalisant les manipulations décrites dans l’étape n°2 (parse de la page WSDL, envoi au répéteur, génération de la réponse et envoi au comparateur).
 
@@ -31,10 +33,9 @@ Bloc3 (BTS - SIO) 13/06/2024
    - J'ai envoyé cette requête au "Repeater" de BurpSuite.
    - J'ai cliqué sur "Send" pour observer la réponse et l'envoyer au "Comparer".
 
-#### Capture de la requête et réponse pour un login non valide :
-```
-[Insérez ici une capture d'écran de la requête et réponse pour un login non valide]
-```
+
+![Capture d’écran 2024-06-27 à 21 54 48](https://github.com/adamsabor/cyber_SABOR/assets/156083054/ce9a1324-6815-4394-8327-8a41346b28af)
+
 
 ### Q3. Tester un exemple de requête et de réponse à l’aide d’un login valide en réalisant les manipulations décrites dans l’étape n°3 (parse de la page WSDL, envoi au répéteur, modification avec un login valide, génération de la réponse et envoi au comparateur).
 
@@ -46,16 +47,17 @@ Bloc3 (BTS - SIO) 13/06/2024
    - J'ai répété les manipulations précédentes avec un login valide.
    - J'ai comparé les réponses obtenues entre un login valide et un login inexistant.
 
-#### Capture de la réponse pour un login valide :
-```
-[Insérez ici une capture d'écran de la réponse pour un login valide]
-```
+
+
+![Capture d’écran 2024-06-27 à 22 11 31](https://github.com/adamsabor/cyber_SABOR/assets/156083054/9270ca85-ac77-4261-bb83-06b3ed37175f)
+![Capture d’écran 2024-06-27 à 22 15 01](https://github.com/adamsabor/cyber_SABOR/assets/156083054/7e718d54-ad0e-4c92-bf33-04ed8381adb4)
 
 ### Q4. Créer un dictionnaire de login sur votre machine cliente. Pour cela, ouvrir un éditeur de texte et saisir des logins les uns en dessous des autres et enregistrer votre fichier.
 
 **Réponse :**
 1. **Créer un dictionnaire de login :**
    - J'ai ouvert un éditeur de texte et saisi des logins les uns en dessous des autres. Puis, j'ai enregistré le fichier.
+![Capture d’écran 2024-06-27 à 22 19 42](https://github.com/adamsabor/cyber_SABOR/assets/156083054/e3198fc1-f3d3-4e85-99e5-092a4a10c75a)
 
 ### Q5. Lancer l’énumération et relever les logins valides en réalisant les manipulations décrites dans l’étape n°4.
 
@@ -118,21 +120,4 @@ Bloc3 (BTS - SIO) 13/06/2024
 [Insérez ici une capture d'écran du code source analysé]
 ```
 
-### Conclusion
 
-#### Q1. Quelles sont les observations et les recommandations finales ?
-
-**Réponse :**
-1. **Synthèse des observations :**
-   - J'ai comparé les versions non sécurisée et sécurisée.
-   - J'ai identifié les vulnérabilités corrigées et les bonnes pratiques implémentées.
-
-2. **Recommandations :**
-   - J'ai recommandé d'implémenter des contrôles de validation côté serveur.
-   - J'ai suggéré l'utilisation de requêtes préparées pour éviter les injections SQL.
-   - J'ai conseillé d'encoder les messages de sortie pour éviter qu’un attaquant puisse les exploiter.
-
-#### Capture des recommandations :
-```
-[Insérez ici une capture d'écran des recommandations]
-```
